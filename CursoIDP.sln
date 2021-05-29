@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoIDO.API", "CursoIDO.API\CursoIDO.API.csproj", "{E098D1CD-908A-4FFB-AEF5-736F52AD07E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoIDO.API", "CursoIDO.API\CursoIDO.API.csproj", "{E098D1CD-908A-4FFB-AEF5-736F52AD07E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoIDP.API.Client1", "CursoIDP.API.Client1\CursoIDP.API.Client1.csproj", "{A02E78B5-B10F-4D27-B202-876AD7E4FB47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoIDP.API.Client1", "CursoIDP.API.Client1\CursoIDP.API.Client1.csproj", "{A02E78B5-B10F-4D27-B202-876AD7E4FB47}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CursoIDP.IdentServer4", "CursoIDP.IdentServer4\CursoIDP.IdentServer4.csproj", "{39F18078-8676-4767-B815-5D68DBB28602}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CursoIDP.API.Client2", "CursoIDP.API.Client2\CursoIDP.API.Client2.csproj", "{E0DCBF68-017C-4736-99B2-2E2651DF41B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{39F18078-8676-4767-B815-5D68DBB28602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39F18078-8676-4767-B815-5D68DBB28602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39F18078-8676-4767-B815-5D68DBB28602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DCBF68-017C-4736-99B2-2E2651DF41B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DCBF68-017C-4736-99B2-2E2651DF41B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DCBF68-017C-4736-99B2-2E2651DF41B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DCBF68-017C-4736-99B2-2E2651DF41B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,5 @@
 ﻿using CursoIDP.API.Client1.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -38,7 +39,7 @@ namespace CursoIDP.API.Client1.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
 
-
+        [Authorize]
         public async Task<IActionResult> Temperatura()
         {
             var vHttpClient = _clientFactory.CreateClient("APIClient");
